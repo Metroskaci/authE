@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aurora RP | ავტორიზაცია</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="scene">
+  <img class="layer left"  src="img/iaragianikacigta5_1.png" alt="" onerror="this.remove()">
+  <img class="layer right" src="img/boobie-ike_3.png"        alt="" onerror="this.remove()">
+  <img class="logo" src="img/logo.png" alt="Logo">
+
+  <main id="card" class="login hidden">
+    <img class="palm-top" src="img/pngwing_546_6.png" alt="" onerror="this.remove()">
+    <h1>ავტორიზაცია</h1>
+    <p class="sub">შედით თქვენს ანგარიშში</p>
+
+    <div class="field">
+      <input id="pass" type="password" maxlength="20" placeholder="პაროლი" autocomplete="off" spellcheck="false">
+      <button type="button" id="eye" class="icon-btn" title="პაროლის ჩვენება">
+        <svg viewBox="0 0 24 24"><path d="M12 5C6.5 5 2.7 9.1 1 12c1.7 2.9 5.5 7 11 7s9.3-4.1 11-7c-1.7-2.9-5.5-7-11-7zm0 11a4 4 0 110-8 4 4 0 010 8zm0-6a2 2 0 100 4 2 2 0 000-4z"/></svg>
+      </button>
+    </div>
+
+    <div id="hint" class="hint log-only"></div>
+
+    <button id="submit" class="btn" type="button">ავტორიზაცია</button>
+    <button id="exit" class="exit" type="button">სერვერიდან გასვლა</button>
+  </main>
+
+  <div id="toast"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
